@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+/* HEADER */
+#header {
+    background-color: rgb(100, 92, 173);
+    font-weight: lighter;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: inline-block;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    height: fit-content;
+}
+
+#header nav ul li {
+    display: inline-block;
+    padding: 3px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+/* INICIO */
+.presentacion {
+    background-image: url(/img/psicologia.jpg);
+    background-size: cover;
+    text-align: center;
+    height: fit-content;
+    margin: 10px 10px 10px 10px;
+}
+
+#quienes-somos {
+    background-color: rgb(136, 140, 185);
+    padding: 15px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#vision {
+    padding: 15px;
+    font-size: 2rem;
+}
+
+#mision {
+    padding: 15px;
+    font-size: 2rem;
+}
+
+section article div p {
+    padding: 20px;
+    line-height: 2;
+}
+
+
+
+/* FOOTER */
+footer {
+    background-color: rgb(100, 92, 173);
+    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 15px;
+    text-align: center;
+    color: white;
+}
+
+footer label {
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+}
+
+/* STAFF */
+#staff {
+    background-color: rgb(136, 140, 185);
+    padding: 15px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.foto-texto {
+    display: flex;
+    flex: row;
+    padding: 10px;
+}
+
+section h2 {
+    padding: 15px;
+}
+
+.texto-inicial {
+    padding: 15px;
+}
+
+.contenido {
+    background-color: rgb(118, 163, 156);
+    margin: 10px 10px 10px 10px;
+    padding: 10px;
+}
+
+section article div img {
+    border: solid;
+    /*display: block;*/
+    margin: 10px 10px 10px 10px;
+}
+
+section article div h2 {
+    padding: 10px;
+}
+
+/* NOTICIAS*/
+#noticias {
+    background-color: rgb(136, 140, 185);
+    padding: 15px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+section div img {
+    border: solid;
+    /*display: block;*/
+    margin: 10px 10px 10px 10px;
+}
+
+section div h2 {
+    padding: 10px;
+}
+
+section div p {
+    padding: 10px;
+}
+
+/*PAGOS*/
+#pagos {
+    background-color: rgb(136, 140, 185);
+    padding: 15px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+section div ul {
+
+    padding: 15px;
+}
+
+
+/*CONTACTO*/
+#contacto {
+    background-color: rgb(136, 140, 185);
+    padding: 15px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+section form {
+    padding: 10px;
+    ;
+    line-height: 3;
+}
+
+/*INGRESAR*/
+
+#ingresar {
+    background-color: rgb(136, 140, 185);
+    padding: 15px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#registrate {
+    background-color: rgb(136, 140, 185);
+    padding: 15px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.contenido-registrate {
+    background-color: rgb(118, 163, 156);
+    margin: 10px 10px 10px 10px;
+    padding: 10px;
+}
+
